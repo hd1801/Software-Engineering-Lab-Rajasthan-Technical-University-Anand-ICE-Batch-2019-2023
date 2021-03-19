@@ -1,0 +1,276 @@
+<?xml version = '1.0' encoding = 'UTF-8' ?>
+<XMI xmi.version = '1.2' xmlns:UML = 'org.omg.xmi.namespace.UML' timestamp = 'Fri Sep 25 14:33:19 IST 2020'>
+  <XMI.header>    <XMI.documentation>
+      <XMI.exporter>ArgoUML (using Netbeans XMI Writer version 1.0)</XMI.exporter>
+      <XMI.exporterVersion>0.34(6) revised on $Date: 2010-01-11 22:20:14 +0100 (Mon, 11 Jan 2010) $ </XMI.exporterVersion>
+    </XMI.documentation>
+    <XMI.metamodel xmi.name="UML" xmi.version="1.4"/></XMI.header>
+  <XMI.content>
+    <UML:Model xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000865'
+      name = 'untitledModel' isSpecification = 'false' isRoot = 'false' isLeaf = 'false'
+      isAbstract = 'false'>
+      <UML:Namespace.ownedElement>
+        <UML:ActivityGraph xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087B'
+          name = '' isSpecification = 'false'>
+          <UML:StateMachine.context>
+            <UML:Model xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000865'/>
+          </UML:StateMachine.context>
+          <UML:StateMachine.top>
+            <UML:CompositeState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087C'
+              name = 'top' isSpecification = 'false' isConcurrent = 'false'>
+              <UML:CompositeState.subvertex>
+                <UML:Pseudostate xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087D'
+                  name = 'START' isSpecification = 'false' kind = 'initial'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087F'/>
+                  </UML:StateVertex.outgoing>
+                </UML:Pseudostate>
+                <UML:ActionState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087E'
+                  name = 'FILL BANK SLIP' isSpecification = 'false' isDynamic = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000883'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087F'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.entry>
+                    <UML:UninterpretedAction xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000880'
+                      isSpecification = 'false' isAsynchronous = 'false'>
+                      <UML:Action.script>
+                        <UML:ActionExpression xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000881'
+                          language = '' body = 'FILL  BANKSLIP'/>
+                      </UML:Action.script>
+                    </UML:UninterpretedAction>
+                  </UML:State.entry>
+                </UML:ActionState>
+                <UML:ActionState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000882'
+                  name = 'CHECK ACC_NO' isSpecification = 'false' isDynamic = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000887'/>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000088A'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000883'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.entry>
+                    <UML:UninterpretedAction xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000884'
+                      isSpecification = 'false' isAsynchronous = 'false'>
+                      <UML:Action.script>
+                        <UML:ActionExpression xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000885'
+                          language = '' body = 'CHECK ACC_NO'/>
+                      </UML:Action.script>
+                    </UML:UninterpretedAction>
+                  </UML:State.entry>
+                </UML:ActionState>
+                <UML:ActionState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000886'
+                  isSpecification = 'false' isDynamic = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000891'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000887'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.entry>
+                    <UML:UninterpretedAction xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000088D'
+                      isSpecification = 'false' isAsynchronous = 'false'>
+                      <UML:Action.script>
+                        <UML:ActionExpression xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000088F'
+                          language = '' body = 'DEPOSIT'/>
+                      </UML:Action.script>
+                    </UML:UninterpretedAction>
+                  </UML:State.entry>
+                </UML:ActionState>
+                <UML:ActionState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000889'
+                  isSpecification = 'false' isDynamic = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000898'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000088A'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.entry>
+                    <UML:UninterpretedAction xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000088B'
+                      isSpecification = 'false' isAsynchronous = 'false'>
+                      <UML:Action.script>
+                        <UML:ActionExpression xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000088C'
+                          language = '' body = 'WITHDRAW'/>
+                      </UML:Action.script>
+                    </UML:UninterpretedAction>
+                  </UML:State.entry>
+                </UML:ActionState>
+                <UML:ActionState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000890'
+                  isSpecification = 'false' isDynamic = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A5'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000891'/>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A2'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.entry>
+                    <UML:UninterpretedAction xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000892'
+                      isSpecification = 'false' isAsynchronous = 'false'>
+                      <UML:Action.script>
+                        <UML:ActionExpression xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000895'
+                          language = '' body = 'UPDATE ACCOUNT'/>
+                      </UML:Action.script>
+                    </UML:UninterpretedAction>
+                  </UML:State.entry>
+                </UML:ActionState>
+                <UML:ActionState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000897'
+                  isSpecification = 'false' isDynamic = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A1'/>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A2'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000898'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.entry>
+                    <UML:UninterpretedAction xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000899'
+                      isSpecification = 'false' isAsynchronous = 'false'>
+                      <UML:Action.script>
+                        <UML:ActionExpression xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000089F'
+                          language = '' body = 'CHECK ACCOUNT&#10; BALANCE'/>
+                      </UML:Action.script>
+                    </UML:UninterpretedAction>
+                  </UML:State.entry>
+                </UML:ActionState>
+                <UML:ActionState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A0'
+                  isSpecification = 'false' isDynamic = 'false'>
+                  <UML:StateVertex.outgoing>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A4'/>
+                  </UML:StateVertex.outgoing>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A1'/>
+                  </UML:StateVertex.incoming>
+                  <UML:State.entry>
+                    <UML:UninterpretedAction xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A6'
+                      isSpecification = 'false' isAsynchronous = 'false'>
+                      <UML:Action.script>
+                        <UML:ActionExpression xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A7'
+                          language = '' body = 'LOW ACCOUNT BALANCE'/>
+                      </UML:Action.script>
+                    </UML:UninterpretedAction>
+                  </UML:State.entry>
+                </UML:ActionState>
+                <UML:FinalState xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A3'
+                  name = 'FINISH' isSpecification = 'false'>
+                  <UML:StateVertex.incoming>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A4'/>
+                    <UML:Transition xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A5'/>
+                  </UML:StateVertex.incoming>
+                </UML:FinalState>
+              </UML:CompositeState.subvertex>
+            </UML:CompositeState>
+          </UML:StateMachine.top>
+          <UML:StateMachine.transitions>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087F'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:Pseudostate xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087D'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087E'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000883'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000087E'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000882'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000887'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000888'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000882'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000886'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:000000000000088A'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000888'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000882'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000889'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000891'
+              isSpecification = 'false'>
+              <UML:Transition.trigger>
+                <UML:SignalEvent xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000896'/>
+              </UML:Transition.trigger>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000886'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000890'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000898'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000889'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000897'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A1'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000897'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A0'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A2'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000897'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000890'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A4'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A0'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:FinalState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A3'/>
+              </UML:Transition.target>
+            </UML:Transition>
+            <UML:Transition xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A5'
+              isSpecification = 'false'>
+              <UML:Transition.source>
+                <UML:ActionState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000890'/>
+              </UML:Transition.source>
+              <UML:Transition.target>
+                <UML:FinalState xmi.idref = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:00000000000008A3'/>
+              </UML:Transition.target>
+            </UML:Transition>
+          </UML:StateMachine.transitions>
+        </UML:ActivityGraph>
+        <UML:SignalEvent xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000888'
+          name = 'CORRECT ACCOUNT_NO' isSpecification = 'false'/>
+        <UML:SignalEvent xmi.id = '-64--88-1-5-4987f8ac:174c44cebc1:-8000:0000000000000896'
+          name = 'CASH DEPOSIT' isSpecification = 'false'/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </XMI.content>
+</XMI>
